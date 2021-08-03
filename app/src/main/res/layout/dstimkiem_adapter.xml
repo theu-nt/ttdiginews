@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:gravity="center"
+   >
+    <ImageView
+        android:id="@+id/imgdstk"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+
+
+    </ImageView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="15sp"
+                android:text="Tên báo"
+                android:id="@+id/tvtenbaodstk"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvtgiandstk"
+                android:text="Thời gian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+
+        </LinearLayout>
+        <TextView
+
+            android:layout_marginTop="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="TIÊU ĐỀ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+            android:text="số like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/like"
+                android:layout_width="15dp"
+                android:layout_height="15dp"></ImageView>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:text="số cmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/cmt"
+                android:layout_width="15dp"
+                android:layout_height="15dp"></ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
